@@ -1,0 +1,33 @@
+.item {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(230, 182, 190);
+}
+
+.item .item--details {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.item .item--details img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.item--detailsStats {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+}
+.item--detailsStats h4 {
+  text-transform: capitalize;
+}
